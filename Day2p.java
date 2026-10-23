@@ -8,5 +8,9 @@ public class Day2p {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         System.out.println("Your number is " + num);
+
+        String name = input.next();
+        System.out.println(name);
+        System.out.println(input.nextLine());
     }
 }
