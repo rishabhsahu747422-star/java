@@ -5,3 +5,6 @@ public class Day1{
     }
 }
 // javac -d ./Byte Day1.java 
+//psvm
+
+//sout
