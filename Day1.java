@@ -4,3 +4,4 @@ public class Day1{
         System.out.println(args[1]);
     }
 }
+// javac -d ./Byte Day1.java 
