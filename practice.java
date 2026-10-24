@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Day2p {
+public class practice {
     public static void main(String[] args) {
 
         System.out.print("Enter any Number ");
@@ -15,7 +15,16 @@ public class Day2p {
         // System.out.println(name);
         // System.out.println(input.nextLine());
 
-        float marks = input.nextFloat();
-        System.out.println(marks);
+        // float marks = input.nextFloat();
+        // System.out.println(marks);
+
+
+        //--------------------- loops------------------------
+
+        float temp = input.nextFloat();
+
+        float tempf = (temp*9/5)+32;
+        System.out.println(tempf);
+
     }
 }
