@@ -38,8 +38,8 @@ public class practice {
 
 
 
-        System.out.print("Enter any Number ");
-        int n = input.nextInt();
+        // System.out.print("Enter any Number ");
+        // int n = input.nextInt();
         
         // int i = 1;
         // while(i<=n){
@@ -53,5 +53,33 @@ public class practice {
             System.out.println("Sorry");
         }
         */
+        
+        // int a = input.nextInt();
+        // int b = input.nextInt();
+        // int c = input.nextInt();
+
+        // int max = a;
+        
+        // if (b>a){
+        //     max=b;
+        // }
+        // if (c>b){
+        //     max = c;
+        // }
+
+        // int max = Math.max(a,Math.max(b,c));
+        // System.out.println(max);
+
+        char ch =input.next().trim().charAt(0);
+
+        if( ch>= 'a' && ch<='z'){
+            System.out.println("lowercase");
+        }else{
+            System.out.println("uppercase");
+        }
+
+
+        
+
     }
 }
