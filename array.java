@@ -5,6 +5,6 @@ public class array {
         System.out.println(arr);
         int[] arr2 = { 2, 3, 4, 5, 56, };
         System.out.println(arr2);
-
+        System.out.println();
     }
 }
